@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: #c9ada7;
+  color: #22223b;
+  overflow: hidden;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background-color: #22223b;
+  padding: 3rem;
+  margin: 0;
+  color: #c9ada7;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+
+input {
+  margin-top: 5rem;
+  font-size: 20px;
+  width: 40%;
+  border: 3px solid gray;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid black;
+}
+
+.meaning {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.about {
+  padding: 1rem;
+  color: #c9ada7;
+  background-color: #22223b;
+  padding-bottom: 3rem;
+  margin-bottom: -10px;
+  width: 100%;
+}
+
+.about-text {
+  margin: auto;
+  width: 80%;
+}
+
+h1,
+.about {
+  border-radius: 10px;
+}
