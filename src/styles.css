@@ -59,3 +59,7 @@ h1,
 .about {
   border-radius: 10px;
 }
+
+.content {
+  height: 30rem;
+}
